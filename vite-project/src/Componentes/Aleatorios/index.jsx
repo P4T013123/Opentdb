@@ -62,7 +62,7 @@ function Aleatorios({ agregarFavorito }) {
   value={dificultadSeleccionada}
   onChange={(e) => {
     setDificultadSeleccionada(e.target.value);
-    filtrarPreguntas(inputBusqueda, e.target.value); // también filtramos al cambiar
+    filtrarPreguntas(inputBusqueda, e.target.value); 
   }}
   className="select-dificultad"
 >
